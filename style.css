@@ -94,6 +94,22 @@
 .ex-11-icon {
     font-size: 60px;
 }
+@keyframes giro1-3{
+    0%{
+        transform: rotate(0)
+    }
+    90%{
+        transform: rotate(0.75turn)
+
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+.ex-11-icon:hover{
+    animation: giro1-3 2s linear;
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
